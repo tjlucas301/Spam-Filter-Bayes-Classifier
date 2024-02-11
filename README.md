@@ -1,2 +1,2 @@
 # Spam-Filter-Bayes-Classifier
-Naive Bayes Classifier that identifies hotel reviews as either deceptive or truthful.
+Hotel review spam filter that classifies hotel reviews as either deceptive or truthful.  Model uses a naive Bayes Classifier to compute probabilities.  Used SKLearn, Pandas, and Numpy in implementation.  Comments in code have more information on specific functions and implementation.  Model has 81% accuracy from the 1200 training reviews used on the 400 test reviews.
