@@ -23,7 +23,6 @@ def create_df(file):
         data_list.append({'labels': label, 'objects': object})
     df = pd.DataFrame(data_list)
     # Removing all punctuation and making all words lowercase
-    # Asked chatGPT how to efficiently do this, contributed some of the below line of code
     df.objects = df.objects.apply(lambda t: t.lower().translate(str.maketrans('', '', string.punctuation)))
     return df
 
